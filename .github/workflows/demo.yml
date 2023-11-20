@@ -1,4 +1,4 @@
-name: Merge Develop into Master and Release
+name: Deployment
 
 on:
   workflow_dispatch:
