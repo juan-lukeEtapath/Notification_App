@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       merge:
-        description: 'Should develop be merged into master?'
+        description: 'Should branch be merged into master?'
         required: true
         default: 'False'
         type: boolean
       minor_or_major:
         description: 'is this a Major or Minor release'
-        required: true
+        required: false
         default: 'Minor'
         type: choice
         options:
